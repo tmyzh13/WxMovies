@@ -8,7 +8,7 @@
   <view class="line">|</view>
   <view id="3" class="{{currentTab==3?'select':'normal'}}" bindtap="switchNav">影评</view>
 </view>
-<swiper current="{{currentTab}}" style="background-color=#f9f9f9">
+<swiper current="{{currentTab}}" style="height:2000px;background-color=#f9f9f9">
   <swiper-item>
     <view class="movieInfo">
       <image src="{{movie.images.medium}}" style="width:100px;height:150px"></image>
